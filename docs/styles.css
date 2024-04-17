@@ -1,13 +1,14 @@
 #topheader {
   display: flex;
-  flex-direction: row; /* Display items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  justify-content: flex-start; /* Align items to the start of the flex container */
 }
 
 .logo1,
 .shortcut {
-  margin-right: 10px; /* Add some spacing between items */
+  margin-right: 20px; /* Add some spacing between items */
 }
 
 .shortcut:last-child {
-  margin-right: 0; /* Remove margin from the last item */
+  margin-right: 10; /* Remove margin from the last item */
 }
