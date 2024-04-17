@@ -1,19 +1,13 @@
-.photo-gallery {
+#topheader {
   display: flex;
-  justify-content: space-between; /* Adjust spacing between photos */
-  align-items: center; /* Align photos vertically */
-  padding: 20px; /* Add padding around the gallery */
+  flex-direction: row; /* Display items horizontally */
 }
 
-.photo {
-  display: block;
-  width: 150px; /* Adjust width of each photo */
-  height: auto; /* Maintain aspect ratio */
+.logo1,
+.shortcut {
+  margin-right: 10px; /* Add some spacing between items */
 }
 
-.photo img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 5px; /* Optional: Add rounded corners to photos */
+.shortcut:last-child {
+  margin-right: 0; /* Remove margin from the last item */
 }
