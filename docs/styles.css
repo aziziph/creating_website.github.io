@@ -4,11 +4,26 @@
   justify-content: flex-start; /* Align items to the start of the flex container */
 }
 
-.logo1,
 .shortcut {
   margin-right: 20px; /* Add some spacing between items */
 }
 
 .shortcut:last-child {
-  margin-right: 10; /* Remove margin from the last item */
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.shortcut-img {
+  display: block;
+  width: 100px;
+  height: auto;
+  margin: 0 auto 10px; /* Add some space between the image and title */
+}
+
+.title {
+  display: block;
+  font-size: 14px;
 }
