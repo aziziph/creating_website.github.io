@@ -9,7 +9,7 @@
 }
 
 .shortcut:last-child {
-  margin-right: 0; /* Remove margin from the last item */
+  margin-right: 20; /* Remove margin from the last item */
 }
 
 .icon-container {
@@ -20,7 +20,7 @@
   display: block;
   width: 100px;
   height: auto;
-  margin: 0 auto 10px; /* Add some space between the image and title */
+  margin: 20 auto 10px; /* Add some space between the image and title */
 }
 
 .title {
