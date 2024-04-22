@@ -1,7 +1,13 @@
 /* Set the width of the carousel container to 30% of the viewport width */
 .carousel-container {
-  width: 30vw; /* Adjust as needed */
+  max-width: 30vw; /* Adjust as needed */
   margin: auto; /* Center the carousel */
+}
+
+/* Set margin on top of the page */
+body {
+  margin-top: 150px;
+   /* Adjust as needed */
 }
 
 /* Set the width of the images to 100% of their container */
