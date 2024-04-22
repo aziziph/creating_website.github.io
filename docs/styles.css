@@ -1,17 +1,80 @@
-/* Set the width of the carousel container to 30% of the viewport width */
-.carousel-container {
-  max-width: 30vw; /* Adjust as needed */
-  margin: auto; /* Center the carousel */
-}
-
 /* Set margin on top of the page */
 body {
-  margin-top: 200px;
-   /* Adjust as needed */
+  margin-top: 40px;
+}
+
+#topheader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 450px;
+  margin-bottom: 30px; /* Add margin between the shortcut icons and the carousel
+   */
+}
+
+.shortcut {
+  margin-right: 20px;
+  margin-bottom: 20px; /* Add margin to the bottom of each shortcut */
+}
+
+.icon-container {
+  text-align: center;
+}
+
+/* Set custom width and height for each shortcut item */
+.shortcut:nth-child(1) .shortcut-img {
+  width: 200px;
+  height: auto;
+}
+
+.shortcut:nth-child(2) .shortcut-img {
+  width: 50px;
+  height: auto;
+}
+
+.shortcut:nth-child(3) .shortcut-img {
+  width: 50px;
+  height: auto;
+}
+
+.shortcut:nth-child(4) .shortcut-img {
+  width: 50px;
+  height: auto;
+}
+
+.shortcut:nth-child(5) .shortcut-img {
+  width: 50px;
+  height: auto;
+}
+
+.shortcut:nth-child(6) .shortcut-img {
+  width: 50px;
+  height: auto;
+}
+
+.shortcut:nth-child(7) .shortcut-img {
+  width: 50px;
+  height: auto;
+}
+
+.shortcut:nth-child(8) .shortcut-img {
+  width: 50px;
+  height: auto;
+}
+
+.title {
+  display: block;
+  font-size: 12px;
+}
+
+/* Set the width of the carousel container to 30% of the viewport width */
+.carousel-container {
+  max-width: 30vw;
+  margin: auto;
 }
 
 /* Set the width of the images to 100% of their container */
 .carousel-container .carousel-item img {
   width: 100%;
-  height: auto; /* Maintain aspect ratio */
+  height: auto;
 }
