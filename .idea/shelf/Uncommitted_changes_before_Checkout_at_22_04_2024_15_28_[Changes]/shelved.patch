@@ -1,0 +1,27 @@
+Index: docs/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Bootstrap Carousel Example</title>\n  <link href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\" rel=\"stylesheet\">\n  <style>\n    /* Limit the maximum height of the images */\n    .carousel-item img {\n      max-height: auto; /*\n      Adjust the maximum height of the images as needed */\n      width: auto; /* Ensure images maintain their aspect ratio */\n    }\n  </style>\n</head>\n<body>\n\n<div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-ride=\"carousel\">\n  <div class=\"carousel-inner\">\n    <div class=\"carousel-item active\">\n      <img\n              class=\"d-block w-100\" src=\"./img/1.png\" alt=\"First slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img\n              class=\"d-block w-100\" src=\"./img/2.png\" alt=\"Second slide\">\n    </div>\n    <div class=\"carousel-item\">\n      <img\n              class=\"d-block w-100\" src=\"./img/3.png\" alt=\"Third slide\">\n    </div>\n  </div>\n  <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">\n    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n    <span class=\"sr-only\">Previous</span>\n  </a>\n  <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">\n    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n    <span class=\"sr-only\">Next</span>\n  </a>\n</div>\n\n<script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\"></script>\n<script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js\"></script>\n<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js\"></script>\n</body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/index.html b/docs/index.html
+--- a/docs/index.html	
++++ b/docs/index.html	
+@@ -6,12 +6,10 @@
+   <title>Bootstrap Carousel Example</title>
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   <style>
+-    /* Limit the maximum height of the images */
+-    .carousel-item img {
+-      max-height: auto; /*
+-      Adjust the maximum height of the images as needed */
+-      width: auto; /* Ensure images maintain their aspect ratio */
+-    }
++      .carousel-item img {
++       width: 300px; /* Adjust the width as needed */
++       height: auto;
++       }
+   </style>
+ </head>
+ <body>
