@@ -1,0 +1,11 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <option name="LINE_SEPARATOR" value="&#10;" />
+    <option name="RIGHT_MARGIN" value="20" />
+    <option name="SOFT_MARGINS" value="20" />
+    <codeStyleSettings language="HTML">
+      <option name="RIGHT_MARGIN" value="30" />
+      <option name="SOFT_MARGINS" value="30" />
+    </codeStyleSettings>
+  </code_scheme>
+</component>
