@@ -26,9 +26,15 @@
 .title {
   display: block;
   font-size: 12px;
+
+/* Set the width of the carousel container to 30% of the viewport width */
+.carousel-container {
+  width: 30vw; /* Adjust as needed */
+  margin: auto; /* Center the carousel */
 }
-.carousel-item img {
-  width: 300px; /*
-  Adjust the width as needed */
-  height: auto;
+
+/* Set the width of the images to 100% of their container */
+.carousel-container .carousel-item img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
 }
