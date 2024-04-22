@@ -1,32 +1,3 @@
-#topheader {
-  display: flex;
-  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
-  justify-content: flex-start; /* Align items to the start of the flex container */
-}
-
-.shortcut {
-  margin-right: 20px; /* Add some spacing between items */
-}
-
-.shortcut:last-child {
-  margin-right: 20; /* Remove margin from the last item */
-}
-
-.icon-container {
-  text-align: center;
-}
-
-.shortcut-img {
-  display: block;
-  width: 100px;
-  height: auto;
-  margin: 20 auto 10px; /* Add some space between the image and title */
-}
-
-.title {
-  display: block;
-  font-size: 12px;
-
 /* Set the width of the carousel container to 30% of the viewport width */
 .carousel-container {
   width: 30vw; /* Adjust as needed */
