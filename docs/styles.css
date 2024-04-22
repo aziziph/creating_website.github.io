@@ -7,14 +7,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-left: 450px;
+  margin-left: 400px;
   margin-bottom: 30px; /* Add margin between the shortcut icons and the carousel
    */
 }
 
 .shortcut {
-  margin-right: 20px;
-  margin-bottom: 20px; /* Add margin to the bottom of each shortcut */
+  margin-right: 50px;
+  margin-bottom: 0px; /* Add margin to the bottom of each shortcut */
 }
 
 .icon-container {
@@ -77,4 +77,13 @@ body {
 .carousel-container .carousel-item img {
   width: 100%;
   height: auto;
+}
+
+.separator-line {
+  border-top: 4px solid orange; /* Increase the thickness by changing the pixel value */
+  width: calc(100% - 800px); /* Adjust the width to accommodate margins */
+  margin: 30px auto; /* Set top and bottom margin to 20px, and center
+  horizontally */
+  margin-left: auto; /* Set left margin to auto */
+  margin-right: auto; /* Set right margin to auto */
 }
