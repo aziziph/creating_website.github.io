@@ -27,7 +27,4 @@
   display: block;
   font-size: 12px;
 }
-.carousel-item img {
-  width: 300px; /* Adjust the width as needed */
-  height: auto;
-}
+
