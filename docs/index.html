@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Carousel Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-ZNV6sJvsU3VvX8mZVnUGLZC2uzh/FqMWraPt8RNUJmxF+QpWb5T35aKbLx8MCnc9KjzD/dGuDrf5aYHTOsAAdg==" crossorigin="anonymous" />
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link href="./styles.css"
         rel="stylesheet"> <!-- Link to your external CSS file -->
 </head>
+
 <body>
 <div id="topheader">
     <div class="shortcut">
@@ -104,9 +106,64 @@
     </div>
   </div>
 </div>
+  <div class="icon-bar-container">
+    <div class="icon-bar">
+    <a href="https://github.com/abinit" target="_blank">
+        <img alt="github"
+             data-html="true"
+             data-toggle="popover"
+             data-trigger="hover"
+             src="./img/git.png"
+             title=""
+             data-original-title="github">
+        </a>
+    </div>
 
+  <div class="icon-bar">
+    <a href="https://github.com/abinit/abipy" target="_blank">
+        <img alt="Abipy"
+             data-html="true"
+             data-toggle="popover"
+             data-trigger="hover"
+             src="./img/abipy.png"
+             title=""
+             data-original-title="ABIPY">
+        </a>
+  </div>
+
+  <div class="icon-bar">
+    <a href="https://gui.abinit.org" target="_blank">
+        <img alt="AbiGUI"
+             data-html="true"
+             data-toggle="popover"
+             data-trigger="hover"
+             src="./img/gui.png"
+             title=""
+             data-original-title="AbiGUI">
+        </a>
+  </div>
+
+<div class="abinit-info">
+    <h2><strong>What is ABINIT ?</strong></h2>
+    <div class="toolong">
+        <span>
+            <strong>ABINIT</strong> is a software suite to calculate the optical, mechanical, vibrational, and other observable properties of materials. Starting from the quantum equations of <strong>density functional theory</strong>, you can build up to advanced applications with <strong>perturbation theories</strong> based on DFT, and <strong>many-body Green's functions</strong> (GW and DMFT).
+        </span>
+        <span class="read-more"><a href="#" class="more-link">+ Read more</a></span>
+        <span class="details" style="display: none;">
+            <span>.</span><br>
+            <strong>ABINIT</strong> can calculate molecules, nanostructures and solids with any chemical composition, and comes with <strong>several complete and robust tables of atomic potentials</strong>.<br>
+            <strong>On-line tutorials</strong> are available for the main features of the code, and several schools and workshops are organized each year.
+        </span>
+        <span class="read-less" style="display: none;"><a href="#" class="less-link"><i class="fa fa-minus-square"></i> Read less</a></span>
+    </div>
+</div>
+
+
+<script src="abinit_info.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
