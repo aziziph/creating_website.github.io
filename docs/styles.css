@@ -159,3 +159,21 @@ body {
 .footer_desc ul li a {
     color: #F18F34; /* Set the color of links inside the footer_desc to orange */
 }
+.carousel-indicators {
+  position: absolute;
+  bottom: -20px; /* Adjust the distance from the bottom */
+}
+.carousel-indicators li {
+  width: 8px; /* Set width of indicators */
+  height: 8px; /* Set height of indicators */
+  margin: 0 3px; /* Adjust margin between indicators */
+  border-radius: 50%; /* Make indicators round */
+  background-color: black; /* Set default background color */
+  border: 1px solid #fff; /* Add border to indicators */
+  border: 4px solid #9acfea; /* Add border to indicators with light blue color
+  */
+}
+
+.carousel-indicators .active {
+  background-color: black; /* Set background color for active indicator */
+}

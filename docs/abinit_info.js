@@ -31,3 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+$('#carouselExampleIndicators').on('slid.bs.carousel', function (e) {
+  var slideIndex = $(this).find('.carousel-item.active').index();
+  $(this).find('.carousel-indicators li').removeClass('active');
+  $(this).find('.carousel-indicators li').eq(slideIndex).addClass('active');
+});
