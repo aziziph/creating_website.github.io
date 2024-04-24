@@ -177,3 +177,18 @@ body {
 .carousel-indicators .active {
   background-color: black; /* Set background color for active indicator */
 }
+.content-bottom2 {
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 0px; /* Add margin to the bottom of each shortcut */
+  margin-bottom: 10px; /* Example bottom margin */
+}
+.content-sponsors img {
+  height: 30px;
+}
+.content {
+  font-size: 5px; /* Example font size */
+  color: gray; /* Example color */
+  font-weight: bold; /* Example font weight */
+}
+
