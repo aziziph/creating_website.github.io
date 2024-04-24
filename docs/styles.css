@@ -105,7 +105,7 @@ body {
 }
 
 .abinit-info {
-    margin-top: 250px; /* Adjust as needed */
+    margin-top: 10px; /* Adjust as needed */
     margin-left: 400px; /* Adjust left margin as needed */
     margin-right: 400px; /* Adjust right margin as needed */
 }
@@ -121,7 +121,7 @@ body {
     text-decoration: none;
 }
 .toolong {
-    font-size: 16px; /* Adjust font size */
+    font-size: 14px; /* Adjust font size */
 }
 
 .toolong span {
@@ -132,10 +132,16 @@ body {
 .details {
     display: none; /* Hide details by default */
 }
+.abinit-info h2 {
+    font-size: 16px; /* Example font size */
+    color: black; /* Example color */
+    font-weight: bold; /* Example font weight */
+    margin-bottom: 10px; /* Example bottom margin */
+}
 
 .lower_block {
     margin-top: 0px; /* Adjust as needed */
-    margin-left: 200px; /* Adjust left margin as needed */
+    margin-left: 400px; /* Adjust left margin as needed */
     margin-right: 500px; /* Adjust right margin as needed */
 }
 .lower_block h4 {
@@ -153,4 +159,3 @@ body {
 .footer_desc ul li a {
     color: #F18F34; /* Set the color of links inside the footer_desc to orange */
 }
-
