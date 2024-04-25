@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-left: 400px;
+  margin-left: 50px;
   margin-bottom: 30px; /* Add margin between the shortcut icons and the carousel */
 }
 
@@ -22,7 +22,7 @@ body {
 
 /* Set custom width and height for each shortcut item */
 .shortcut:nth-child(1) .shortcut-img {
-  width: 200px;
+  width: 300px;
   height: auto;
 }
 
@@ -72,6 +72,7 @@ body {
   max-width: 30vw;
   margin: 0 auto; /* Center the carousel horizontally */
   position: relative; /* Add position relative to create a stacking context */
+  margin-top: 50px;
 }
 
 /* Set the width of the images to 100% of their container */
@@ -80,12 +81,19 @@ body {
   height: auto;
 }
 
-.separator-line {
+.separator-line1 {
   border-top: 4px solid #F18F34; /* Increase the thickness by changing the pixel value */
-  width: calc(100% - 800px); /* Adjust the width to accommodate margins */
+  width: calc(100% - 400px); /* Adjust the width to accommodate margins */
   margin: 30px auto; /* Set top and bottom margin to 20px, and center horizontally */
+  margin-top: -80px
 }
 
+.separator-line2 {
+  border-top: 4px solid #F18F34; /* Increase the thickness by changing the pixel value */
+  width: calc(100% - 550px); /* Adjust the width to accommodate margins */
+  margin: 30px auto; /* Set top and bottom margin to 20px, and center horizontally */
+  margin-left: 350px;
+}
 .icon-bar-container {
   position: absolute;
   top: 0;
@@ -140,7 +148,7 @@ body {
 }
 
 .lower_block {
-    margin-top: 0px; /* Adjust as needed */
+    margin-top: -20px; /* Adjust as needed */
     margin-left: 400px; /* Adjust left margin as needed */
     margin-right: 500px; /* Adjust right margin as needed */
 }
@@ -149,6 +157,7 @@ body {
     color: black; /* Example color */
     font-weight: bold; /* Example font weight */
     margin-bottom: 10px; /* Example bottom margin */
+    margin-left: 40px;
 }
 
 .footer_desc {
@@ -158,10 +167,11 @@ body {
 
 .footer_desc ul li a {
     color: #F18F34; /* Set the color of links inside the footer_desc to orange */
+    margin-left: 0px;
 }
 .carousel-indicators {
   position: absolute;
-  bottom: -20px; /* Adjust the distance from the bottom */
+  top: -10px; /* Adjust the distance from the bottom */
 }
 .carousel-indicators li {
   width: 8px; /* Set width of indicators */
@@ -192,3 +202,16 @@ body {
   font-weight: bold; /* Example font weight */
 }
 
+.LatestVersion {
+  position: absolute;
+  top: 30px; /* Adjust the distance from the bottom */
+  left: 40px;
+}
+.blink_me {
+        animation: blinker 1s linear infinite;
+    }
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }

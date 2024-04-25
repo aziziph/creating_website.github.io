@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ABINIT</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-ZNV6sJvsU3VvX8mZVnUGLZC2uzh/FqMWraPt8RNUJmxF+QpWb5T35aKbLx8MCnc9KjzD/dGuDrf5aYHTOsAAdg==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"  crossorigin="anonymous" />
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link href="./styles.css"
         rel="stylesheet"> <!-- Link to your external CSS file -->
@@ -76,8 +76,37 @@
             </div>
         </a>
     </div>
+    <div class="shortcut">
+        <a href="https://github.com/abinit">
+            <div class="icon-container">
+                <img alt="GitHub" class="shortcut-img" src="./img/git.png"
+                     title="GitHub" />
+                <span class="title"></span>
+            </div>
+        </a>
+    </div>
+    <div class="shortcut">
+        <a href="https://gui.abinit.org/">
+            <div class="icon-container">
+                <img alt="GUI" class="shortcut-img" src="./img/gui.png"
+                     title="GUI" />
+                <span class="title"></span>
+            </div>
+        </a>
+    </div>
+    <div class="shortcut">
+        <a href="https://github.com/abinit/abipy">
+            <div class="icon-container">
+                <img alt="abipy" class="shortcut-img" src="./img/abipy.png"
+                     title="abipy" />
+                <span class="title"></span>
+            </div>
+        </a>
+    </div>
 </div>
-<div class="separator-line"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<div class="separator-line1"></div>
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -98,7 +127,6 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner carousel-container">
           <div class="carousel-item active">
             <img
@@ -148,6 +176,7 @@
             <img class="d-block w-100" src="./img/mgsio3.png"
                  alt="12th slide">
           </div>
+          <div class="carousel-item">
           <img class="d-block w-100" src="./img/positron.png"
                  alt="13th slide">
           </div>
@@ -160,50 +189,49 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
     </div>
   </div>
 </div>
 
+    <div class="LatestVersion">
+        <span class="blink_me">New : </span><a href="/package/10.0.3"><span style="color: #F18F34;">Abinit 10.0.3 available (production)</span></a>
+        </div>
+<!--  <div class="icon-bar-container">-->
+<!--    <div class="icon-bar">-->
+<!--    <a href="https://github.com/abinit" target="_blank">-->
+<!--        <img alt="github"-->
+<!--             data-html="true"-->
+<!--             data-toggle="popover"-->
+<!--             data-trigger="hover"-->
+<!--             src="./img/git.png"-->
+<!--             title=""-->
+<!--             data-original-title="github">-->
+<!--        </a>-->
+<!--    </div>-->
 
-<center><span class="blink_me">New : </span><a href="/package/10.0.3"><span style="color: #F18F34;">Abinit 10.0.3 available (production)</span></a></center>
+<!--  <div class="icon-bar">-->
+<!--    <a href="https://github.com/abinit/abipy" target="_blank">-->
+<!--        <img alt="Abipy"-->
+<!--             data-html="true"-->
+<!--             data-toggle="popover"-->
+<!--             data-trigger="hover"-->
+<!--             src="./img/abipy.png"-->
+<!--             title=""-->
+<!--             data-original-title="ABIPY">-->
+<!--        </a>-->
+<!--  </div>-->
 
-  <div class="icon-bar-container">
-    <div class="icon-bar">
-    <a href="https://github.com/abinit" target="_blank">
-        <img alt="github"
-             data-html="true"
-             data-toggle="popover"
-             data-trigger="hover"
-             src="./img/git.png"
-             title=""
-             data-original-title="github">
-        </a>
-    </div>
-
-  <div class="icon-bar">
-    <a href="https://github.com/abinit/abipy" target="_blank">
-        <img alt="Abipy"
-             data-html="true"
-             data-toggle="popover"
-             data-trigger="hover"
-             src="./img/abipy.png"
-             title=""
-             data-original-title="ABIPY">
-        </a>
-  </div>
-
-  <div class="icon-bar">
-    <a href="https://gui.abinit.org" target="_blank">
-        <img alt="AbiGUI"
-             data-html="true"
-             data-toggle="popover"
-             data-trigger="hover"
-             src="./img/gui.png"
-             title=""
-             data-original-title="AbiGUI">
-        </a>
-  </div>
+<!--  <div class="icon-bar">-->
+<!--    <a href="https://gui.abinit.org" target="_blank">-->
+<!--        <img alt="AbiGUI"-->
+<!--             data-html="true"-->
+<!--             data-toggle="popover"-->
+<!--             data-trigger="hover"-->
+<!--             src="./img/gui.png"-->
+<!--             title=""-->
+<!--             data-original-title="AbiGUI">-->
+<!--        </a>-->
+<!--  </div>-->
   </div>
 
 <div class="abinit-info">
@@ -221,7 +249,7 @@
     </div>
 </div>
 
-<div class="separator-line"></div>
+<div class="separator-line2"></div>
 
 <div class="lower_block">
 <div class="content-bottom row">
@@ -237,7 +265,7 @@
                             <li><a href="https://docs.abinit.org/theory/acknowledgments/" target="_blank">Suggested acknowledgments</a></li>
                             <li><a href="/sponsors">Sponsors</a> - <a href="/partners">Partners</a> - <a href="/links">Links</a></li>
                             <li><a href="/advisory">Int'l Advisory Committee</a></li>
-                            <li><a alt="copyleft" href="https://docs.abinit.org/about/license/" target="_blank">Legal information</a></li>
+                            <li><a href="https://docs.abinit.org/about/license/" target="_blank">Legal information</a></li>
                         </ul>
                     </div>
                 </div>
@@ -251,12 +279,12 @@
                     <h4>Get Abinit</h4>
                     <div class="footer_desc">
                         <ul>
-                            <li><a alt="Packages" href="/packages">Abinit packages</a></li>
+                            <li><a href="/packages">Abinit packages</a></li>
                             <li><a href="/sites/default/files/robodoc-html/masterindex.html" target="_blank">Browse latest sources</a></li>
-                            <li><a alt="Atomic data" href="/atomic-data-files">Atomic data/Pseudopotentials</a></li>
-                            <li><a alt="Installation" href="https://docs.abinit.org/installation/" target="_blank">Installation notes</a></li>
-                            <li><a alt="Fallbacks" href="/fallbacks">Abinit fallbacks</a></li>
-                            <li><a alt="Virtual" href="/virtual">Run Abinit in a Virtual Machine</a></li>
+                            <li><a href="/atomic-data-files">Atomic data/Pseudopotentials</a></li>
+                            <li><a href="https://docs.abinit.org/installation/" target="_blank">Installation notes</a></li>
+                            <li><a href="/fallbacks">Abinit fallbacks</a></li>
+                            <li><a href="/virtual">Run Abinit in a Virtual Machine</a></li>
                         </ul>
                     </div>
                 </div>
@@ -359,6 +387,6 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>
